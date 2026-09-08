@@ -69,9 +69,8 @@ a { color: inherit; }
 .stack,
 .education-entry span {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 0.66rem;
-  letter-spacing: 0.13em;
-  text-transform: uppercase;
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
 }
 
 .eyebrow { margin: 0 0 22px; color: var(--muted); }
