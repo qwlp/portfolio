@@ -3,7 +3,6 @@
   --ink: #171714;
   --muted: #6b6961;
   --line: #c8c3b8;
-  --accent: #d8ff48;
 }
 
 * { box-sizing: border-box; }
@@ -119,8 +118,9 @@ a { color: inherit; }
 .education-content h3 { margin: 0; font-size: 1.65rem; font-weight: 400; }
 .education-content p { margin: 0; }
 .education-entry span { color: var(--muted); }
-
-::selection { background: var(--accent); color: var(--ink); }
+.education-links { display: flex; flex-wrap: wrap; gap: 5px 14px; }
+.education-links a { text-underline-offset: 3px; }
+.education-links a:hover { text-decoration-color: transparent; }
 
 @media (max-width: 760px) {
   .wrap { width: min(100% - 30px, 1120px); }
