@@ -46,7 +46,7 @@ a { color: inherit; }
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  padding-block: 42px;
+  padding-block: 32px 20px;
 }
 
 .wordmark {
@@ -58,11 +58,11 @@ a { color: inherit; }
 
 .feature-image {
   width: min(800px, calc(100% - 48px));
-  margin: 7vh auto 0;
+  margin: 18px auto 0;
 }
 .feature-image img { display: block; width: 100%; height: auto; }
 
-.hero { padding: 7vh 0 13vh; }
+.hero { padding: 44px 0 72px; }
 
 .eyebrow,
 .entry-meta,
@@ -92,7 +92,7 @@ a { color: inherit; }
   display: grid;
   grid-template-columns: 1fr 3fr;
   gap: 7vw;
-  padding-block: 92px;
+  padding-block: 68px;
   border-top: 1px solid var(--line);
 }
 
@@ -102,10 +102,10 @@ a { color: inherit; }
   display: grid;
   grid-template-columns: 1fr 2.2fr;
   gap: 40px;
-  padding: 0 0 54px;
+  padding: 0 0 34px;
 }
 .entry:last-child { padding-bottom: 0; }
-.entry + .entry { padding-top: 28px; }
+.entry + .entry { padding-top: 14px; }
 .entry-meta p { margin: 0 0 5px; }
 .entry-meta p:last-child { color: var(--muted); }
 .entry-body h3 { margin: 0 0 2px; font-size: 1.65rem; font-weight: 400; line-height: 1.15; }
@@ -145,15 +145,15 @@ a { color: inherit; }
 
 @media (max-width: 760px) {
   .wrap { width: min(100% - 30px, 1120px); }
-  .site-header { padding-block: 27px; }
-  .feature-image { width: calc(100% - 30px); margin-top: 5vh; }
-  .hero { padding: 10vh 0 13vh; }
+  .site-header { padding-block: 24px 14px; }
+  .feature-image { width: calc(100% - 30px); margin-top: 12px; }
+  .hero { padding: 38px 0 62px; }
   .intro-grid, .section, .entry { grid-template-columns: 1fr; }
   .intro-grid { gap: 36px; }
   .contact-links { flex-direction: row; flex-wrap: wrap; gap: 8px 22px; }
-  .section { gap: 52px; padding-block: 68px; }
-  .entry { gap: 22px; padding-bottom: 42px; }
-  .entry + .entry { padding-top: 42px; }
+  .section { gap: 40px; padding-block: 52px; }
+  .entry { gap: 18px; padding-bottom: 34px; }
+  .entry + .entry { padding-top: 12px; }
   .project { grid-template-columns: 1fr auto; gap: 10px 20px; }
   .project p, .project .stack { grid-column: 1 / -1; }
   .project .stack { margin-top: 8px; }
